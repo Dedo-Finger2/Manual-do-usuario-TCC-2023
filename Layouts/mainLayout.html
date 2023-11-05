@@ -1,218 +1,84 @@
 <!DOCTYPE html>
-<html lang="pt-Br">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width,initial-scale=1.0">
-		<meta http-equiv="x=ua-compatible" content="ie=edge">
-		<link rel="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/css/bootstrap.min.css">
-		 <link rel="stylesheet" type="text/css" href=" https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css ">
-		 <link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="../Public/CSS/style.css">
-	
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/js/bootstrap.bundle.min.js" defer></script>
-		<title>Layout Manual</title>
-	</head>
-	<body>
-		<aside class="container-fluid">
-    <!--Inicio Sidebar-->
-    <div class="sidebar close overflow-auto">
-      
-      <div class="logo-details">
-        
-        <i class="bx bx-menu"></i>
-        <span class="logo_name">Menu</span>
-     
-      </div>
-      
-      <ul class="nav-links">
-      
-        <li>
-          
-          <a href="#">
-            <i class='bx bx-grid-alt' ></i>
-            <span class="link_name">Dashboard</span>
-          </a>
-            
-          <ul class="sub-menu blank">
-            <li><a class="link_name" href="#">Home</a></li>
-          </ul>
-          
-        </li>
-        
-        <li>
-          
-          <div class="iocn-link">
-            
-            <a href="#">
-              <i class='bx bx-collection' ></i>
-              <span class="link_name">Categoria</span>
-            </a>
-            
-            <i class='bx bxs-chevron-down arrow' ></i>
-          
-          </div>
-          
-          <ul class="sub-menu">
-            
-            <li><a class="link_name" href="#">Categoria</a></li>
-            <li><a href="#">HTML</a></li>
-            <li><a href="#">Css</a></li>
-            <li><a href="#">JavaScript</a></li>
-            <li><a href="#">WordPress</a></li>
-          
-          </ul>
-          
-        </li>
-        
-        <li>
-          
-          <div class="iocn-link">
-            
-            <a href="#">
-              <i class='bx bx-book-alt' ></i>
-              <span class="link_name">Posts</span>
-            </a>
-            
-            <i class='bx bxs-chevron-down arrow' ></i>
-          
-          </div>
-          
-          <ul class="sub-menu">
-          
-            <li><a class="link_name" href="#">Posts</a></li>
-            <li><a href="#">Seo</a></li>
-            <li><a href="#">Técnologia</a></li>
-          
-          </ul>
+<html lang="pt-br">
 
-        </li>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta http-equiv="x=ua-compatible" content="ie=edge">
+	<!-- CDN Bootstrap -->
+	<link rel="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/css/bootstrap.min.css">
+	<!-- Ícones -->
+	<link rel="stylesheet" type="text/css" href=" https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css ">
+	<!-- Custom CSS -->
+	<link rel="stylesheet" type="text/css" href="../Public/CSS/style.css">
+	<!-- JS Bootstrap -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/js/bootstrap.bundle.min.js" defer></script>
 
-        <li>
-          
-          <a href="#">
-            <i class='bx bx-pie-chart-alt-2' ></i>
-            <span class="link_name">Analytics</span>
-          </a>
+	<title>Layout Manual</title>
+</head>
 
-          <ul class="sub-menu blank">
-            <li><a class="link_name" href="#">Analytics</a></li>
-          </ul>
+<body>
+	<aside class="container-fluid">
+		<!-- Inicio Sidebar -->
+		<div class="sidebar close overflow-auto">
+			<!-- Inicio Barra superior -->
+			<div class="logo-details">
+				<i class="bx bx-menu"></i>
+				<span class="logo_name">Menu</span>
+			</div>
+			<!-- Fim Barra superior -->
 
-        </li>
-        
-        <li>
-          
-          <a href="#">
-            <i class='bx bx-line-chart' ></i>
-            <span class="link_name">Chart</span>
-          </a>
+			<!-- Inicio corpo Sidebar -->
+			<ul class="nav-links">
+				<!-- Item único -->
+				<li>
+					<a href="#">
+						<i class='bx bx-grid-alt'></i>
+						<span class="link_name">Item único</span>
+					</a>
+				</li>
+				<!-- Dropdown -->
+				<li>
+					<div class="iocn-link">
+						<a href="#">
+							<i class='bx bx-collection'></i>
+							<span class="link_name">Dropdown</span>
+						</a>
+						<i class='bx bxs-chevron-down arrow'></i>
+					</div>
+					<ul class="sub-menu">
+						<li><a href="#">Teste</a></li>
+						<li><a href="#">Teste2</a></li>
+						<li><a href="#">Teste3</a></li>
+						<li><a href="#">Teste4</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<!-- Fim Sidebar -->
+	</aside>
 
-          <ul class="sub-menu blank">
-            <li><a class="link_name" href="#">Chart</a></li>
-          </ul>
-
-        </li>
-
-        <li>
-          
-          <div class="iocn-link">
-          
-            <a href="#">
-              <i class='bx bx-plug' ></i>
-              <span class="link_name">Plugins</span>
-            </a>
-            
-            <i class='bx bxs-chevron-down arrow' ></i>
-            
-          </div>
-          
-          <ul class="sub-menu">
-            <li><a class="link_name" href="#">Plugins</a></li>
-            <li><a href="#">Formularios</a></li>
-            <li><a href="#">Menus</a></li>
-            <li><a href="#">SlideShow</a></li>
-          </ul>
-
-        </li>
-        
-        <li>
-        
-          <a href="#">
-            <i class='bx bx-compass' ></i>
-            <span class="link_name">Explore</span>
-          </a>
-          
-          <ul class="sub-menu blank">
-            <li><a class="link_name" href="#">Explore</a></li>
-          </ul>
-
-        </li>
-
-        <li>
-          
-          <a href="#">
-            <i class='bx bx-history'></i>
-            <span class="link_name">Histórico</span>
-          </a>
-          
-          <ul class="sub-menu blank">
-            <li><a class="link_name" href="#">Histórico</a></li>
-          </ul>
-
-        </li>
-          
-        <li>
-          
-          <a href="#">
-            <i class='bx bx-cog' ></i>
-            <span class="link_name">Configurações</span>
-          </a>
-          
-          <ul class="sub-menu blank">
-            <li><a class="link_name" href="#">Configurações</a></li>
-          </ul>
-
-        </li>
-
-        
-
-      </ul><!--Fecha ul-->
-
-    </div>
-    <!--Fecha Sidebar-->
-		</aside>
-		<section class="container-fluid main-content">
-			<article>
+	<!-- Conteúdo da página -->
+	<section class="container-fluid main-content">
+		<article>
 			<div>
 				<h1 class="text-center titulo-color ">Neque porro quisqua</h1>
 				<h3 class="text-center titulo-color">quia dolor sit amet, consectetur
 				</h3>
 				<p class="text-center ms-5">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut nibh convallis, interdum lorem in, semper quam. Nunc sed mauris nisl. Pellentesque vestibulum lorem neque, in tristique massa blandit vel. Suspendisse potenti. Suspendisse nec augue eget nisl egestas facilisis. Nullam malesuada rutrum libero eu convallis. In sit amet vehicula sem. Sed vitae pellentesque lorem. Mauris egestas fermentum commodo. Morbi ac mattis nibh. Ut sed lectus at arcu facilisis laoreet sit amet vel urna. In posuere placerat tortor, pretium pharetra eros tempor et. Vestibulum ut sollicitudin risus. Fusce at sem volutpat, consequat est in, suscipit tellus</p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut nibh convallis, interdum lorem
+					in, semper quam. Nunc sed mauris nisl. Pellentesque vestibulum lorem neque, in tristique massa
+					blandit vel. Suspendisse potenti. Suspendisse nec augue eget nisl egestas facilisis. Nullam
+					malesuada rutrum libero eu convallis. In sit amet vehicula sem. Sed vitae pellentesque lorem. Mauris
+					egestas fermentum commodo. Morbi ac mattis nibh. Ut sed lectus at arcu facilisis laoreet sit amet
+					vel urna. In posuere placerat tortor, pretium pharetra eros tempor et. Vestibulum ut sollicitudin
+					risus. Fusce at sem volutpat, consequat est in, suscipit tellus</p>
 			</div>
-			</article>
-		</section>
-		<script>
-    let arrow = document.querySelectorAll(".arrow");
-    for (var i = 0; i < arrow.length; i++) {
-      arrow[i].addEventListener("click", (e)=>{
-     let arrowParent = e.target.parentElement.parentElement;//selecting main parent of arrow
-     arrowParent.classList.toggle("showMenu");
-      });
-    }
+		</article>
+	</section>
 
-		let sidebar = document.querySelector(".sidebar"); // Pegando sidebar
-        let sidebarBtn = document.querySelector(".bx-menu"); // Pegando o botão de abrire fechar a sidebar
-        let mainContent = document.querySelector(".main-content"); // Pegando conteúdo
+	<!-- JS para a sidebar -->
+	<script src="../Public/JS/script.js"></script>
+</body>
 
-        // Caso o botão seja clicado, ele adiciona ou remove a classe "close" na sidebar e adiciona ou remove a tag que da margem no texto
-        sidebarBtn.addEventListener("click", () => {
-            sidebar.classList.toggle("close");
-            mainContent.classList.toggle("main-content-shifted");
-        });
-		</script>
-	
-	</body>
 </html>

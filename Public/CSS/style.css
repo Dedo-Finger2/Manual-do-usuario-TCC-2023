@@ -1,4 +1,9 @@
-/* Custom CSS do nosso TCC */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color:#F9F9F9;
+}
 
 .sidebar {
     position: fixed;
@@ -6,7 +11,7 @@
     left: 0;
     height: 100%;
     width: 260px;
-    background: #1d1c10;
+    background: #263238;
     z-index: 100;
     transition: all 0.5s ease;
 }
@@ -20,7 +25,7 @@
     width: 100%;
     display: flex;
     align-items: center;
-    /* colocar aqui */
+    background-color: #1E272C;
 }
 
 .sidebar .logo-details i {
@@ -67,7 +72,7 @@
 }
 
 .sidebar .nav-links li:hover {
-    background: #1d1b31;
+    background: #546e7a;
 }
 
 .sidebar .nav-links li .iocn-link {
@@ -120,7 +125,7 @@
 .sidebar .nav-links li .sub-menu {
     padding: 6px 6px 14px 80px;
     margin-top: -10px;
-    background: #1d1b31;
+    background: #546e7a;
     display: none;
 }
 
@@ -272,8 +277,4 @@
 
 .titulo-color{
 	color:#4090CA;
-}
-
-body{
-	background-color:#F9F9F9 ;
 }
