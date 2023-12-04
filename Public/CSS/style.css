@@ -278,3 +278,16 @@ body {
 .titulo-color{
 	color:#4090CA;
 }
+
+/* Divisão para as imagens */
+.container{
+    border-radius: 10px;
+    border: #1d1b31;
+    
+}
+
+/* Arquivos de imagem */
+  .imagem-redimensionada {
+    max-width: 60%;
+    height: auto;
+  }
