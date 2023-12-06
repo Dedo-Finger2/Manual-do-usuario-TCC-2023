@@ -291,3 +291,8 @@ body {
     max-width: 60%;
     height: auto;
   }
+
+  .logo-redimensionada{
+    max-width: 30%;
+    height: auto;
+  }
