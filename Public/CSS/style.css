@@ -283,7 +283,12 @@ body {
 .container{
     border-radius: 10px;
     border: #1d1b31;
-    
+}
+
+.container-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Arquivos de imagem */
