@@ -3,171 +3,149 @@
 
 <head>
 	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Introdução</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta http-equiv="x=ua-compatible" content="ie=edge">
+	<!-- CDN Bootstrap -->
+	<link rel="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/css/bootstrap.min.css">
+	<!-- Ícones -->
+	<link rel="stylesheet" type="text/css" href=" https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css ">
+	<!-- Custom CSS -->
+	<link rel="stylesheet" type="text/css" href="../../CSS/style.css">
+	<!-- JS Bootstrap -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/js/bootstrap.bundle.min.js" defer></script>
+	<title>Manual do usuário: Introdução</title>
+	<link rel="shortcut icon" href="../../img/logo_tcc_icon.png">
 </head>
 
 <body>
-	<!DOCTYPE html>
-	<html lang="pt-br">
+	<aside class="container-fluid">
+		<!-- Inicio Sidebar -->
+		<div class="sidebar close overflow-auto visible">
+			<!-- Inicio Barra superior -->
+			<div class="logo-details">
+				<i class="bx bx-menu"></i>
+				<span class="logo_name">Menu</span>
+			</div>
+			<!-- Fim Barra superior -->
 
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Manual Do usuario: Acesso empresarial</title>
-	</head>
+			<!-- Inicio corpo Sidebar -->
+			<ul class="nav-links">
+				<!-- Item único -->
 
-	<body>
+				<li>
+					<a href="../Empresa/introducaoEmpresa.html">
+						<i class='bx bxs-buildings' ></i>
+						<span class="link_name">Empresa</span>
+					</a>
+				</li>
 
-		<!DOCTYPE html>
-		<html lang="pt-br">
+				<li>
+					<a href="Introdução.html">
+						<i class='bx bxs-user' ></i>
+						<span class="link_name">Usuário</span>
+					</a>
+				</li>
 
-		<head>
-			<meta charset="UTF-8">
-			<meta name="viewport" content="width=device-width,initial-scale=1.0">
-			<meta http-equiv="x=ua-compatible" content="ie=edge">
-			<!-- CDN Bootstrap -->
-			<link rel="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/css/bootstrap.min.css">
-			<!-- Ícones -->
-			<link rel="stylesheet" type="text/css" href=" https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css ">
-			<!-- Custom CSS -->
-			<link rel="stylesheet" type="text/css" href="../../CSS/style.css">
-			<!-- JS Bootstrap -->
-			<script src="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/js/bootstrap.bundle.min.js" defer></script>
 
-			<title>Layout Manual</title>
-		</head>
-
-		<body>
-
-			<aside class="container-fluid">
-				<!-- Inicio Sidebar -->
-				<div class="sidebar close overflow-auto visible">
-					<!-- Inicio Barra superior -->
-					<div class="logo-details">
-						<i class="bx bx-menu"></i>
-						<span class="logo_name">Menu</span>
+				<!-- Dropdown -->
+				<li>
+					<div class="iocn-link">
+						<a href="#">
+							<i class='bx bxs-help-circle' ></i>
+							<span class="link_name">Dúvidas</span>
+						</a>
+						<i class='bx bxs-chevron-down arrow'></i>
 					</div>
-					<!-- Fim Barra superior -->
-
-					<!-- Inicio corpo Sidebar -->
-					<ul class="nav-links">
-						<!-- Item único -->
-
-						<li>
-							<a href="../Empresa/introducaoEmpresa.html">
-								<i class='bx bx-grid-alt'></i>
-								<span class="link_name">Empresa</span>
-							</a>
-						</li>
+					<ul class="sub-menu">
+						<li><a href="login.html">Como acessar <br>o sistema?</a></li>
+						<li><a href="buscar.html">Como busco <br> uma rota?</a></li>
+						<li><a href="verIntinerarios.html">Como vejo <br> os intinerarios?</a></li>
+						<li><a href="feedback.html">Como fazer <br> feedbacks?</a></li>
 
 						<li>
-							<a href="#">
-								<i class='bx bx-grid-alt'></i>
-								<span class="link_name">Usuario</span>
-							</a>
+							<hr>
 						</li>
-
-
-						<!-- Dropdown -->
-						<li>
-							<div class="iocn-link">
-								<a href="#">
-									<i class='bx bx-collection'></i>
-									<span class="link_name">Dúvidas</span>
-								</a>
-								<i class='bx bxs-chevron-down arrow'></i>
-							</div>
-							<ul class="sub-menu">
-								<li><a href="login.html">Como acessar <br>o sistema?</a></li>
-								<li><a href="buscar.html">Como busco <br> uma rota?</a></li>
-								<li><a href="verIntinerarios.html">Como vejo <br> os intinerarios?</a></li>
-								<li><a href="feedback.html">Como fazer <br> feedbacks?</a></li>
-								<li>
-									<hr>
-								</li>
-								<a href="">Ajuda</a>
-								<li><a href="ajuda1.html">Não consigo <br> achar uma rota</a></li>
-							</ul>
-						</li>
+						<a href="">Ajuda</a>
+						<li><a href="ajuda1.html">Não consigo <br> achar uma rota</a></li>
 					</ul>
+				</li>
+			</ul>
+		</div>
+		<!-- Fim Sidebar -->
+	</aside>
+
+	<!-- Conteúdo da página -->
+	<section class="container-fluid main-content">
+		<article>
+			<div>
+				<h1 class="text-center titulo-color ">Bem Vindo! tire suas dúvidas sobre como usar a plataforma
+					e buscar ônibus aqui!</h1>
+				<h3 class="text-center titulo-color">Duvidas referentes as buscas ou a conta? clique em
+					duvidas na esquerda,<br>
+					caso você seja uma empresa ou tenha dúvidas em relação ao painel de controle, clique
+					empresa.
+				</h3>
+				<p class="text-center ms-5">
+					Nosso objetivo é oferecer uma solução inteligente para a gestão do transporte público,
+					atendendo às necessidades da população e proporcionando uma experiência eficiente e
+					abrangente.
+					Com a utilização de tecnologias como HTML, CSS, PHP, JavaScript, LARAVEL e Bootstrap,
+					desenvolvemos um software inovador que coleta dados sobre a demanda da população, permitindo
+					que empresas de transporte otimizem seus serviços.
+					Através de um painel de controle exclusivo, os administradores têm acesso a informações
+					valiosas, enquanto os usuários podem visualizar itinerários e contribuir para aprimorar as
+					rotas.
+					Nossa abordagem baseada em análise de dados e tecnologia de ponta visa melhorar a fluidez do
+					tráfego e a qualidade de vida dos cidadãos de Camaçari.
+				</p>
+
+				<div class="container-center">
+					<img src="../../img/logo_tcc.png" alt="indisponivel" class="logo-redimensionada">
 				</div>
-				<!-- Fim Sidebar -->
-			</aside>
-
-			<!-- Conteúdo da página -->
-			<section class="container-fluid main-content">
-				<article>
-					<div>
-						<h1 class="text-center titulo-color ">Bem Vindo! tire suas dúvidas sobre como usar a plataforma
-							e buscar ônibus aqui!</h1>
-						<h3 class="text-center titulo-color">Duvidas referentes as buscas ou a conta? clique em
-							duvidas na esquerda,<br>
-							caso você seja uma empresa ou tenha dúvidas em relação ao painel de controle, clique
-							empresa.
-						</h3>
-						<p class="text-center ms-5">
-							Nosso objetivo é oferecer uma solução inteligente para a gestão do transporte público,
-							atendendo às necessidades da população e proporcionando uma experiência eficiente e
-							abrangente.
-							Com a utilização de tecnologias como HTML, CSS, PHP, JavaScript, LARAVEL e Bootstrap,
-							desenvolvemos um software inovador que coleta dados sobre a demanda da população, permitindo
-							que empresas de transporte otimizem seus serviços.
-							Através de um painel de controle exclusivo, os administradores têm acesso a informações
-							valiosas, enquanto os usuários podem visualizar itinerários e contribuir para aprimorar as
-							rotas.
-							Nossa abordagem baseada em análise de dados e tecnologia de ponta visa melhorar a fluidez do
-							tráfego e a qualidade de vida dos cidadãos de Camaçari.
-						</p>
-
-						<div class="container-center">
-							<img src="../../img/logo_tcc.png" alt="indisponivel" class="logo-redimensionada">
-						</div>
 
 
-						<h1>Glossário</h1>
+				<h1>Glossário</h1>
 
-						<ul>
-							<li>
-								<strong>HTML (HyperText Markup Language):</strong>
-								Linguagem de marcação usada para criar a estrutura e o conteúdo de páginas da web.
-							</li>
-							<li>
-								<strong>CSS (Cascading Style Sheets):</strong>
-								Linguagem usada para estilizar a apresentação de documentos HTML, dando estilo e formato
-								às páginas da web.
-							</li>
-							<li>
-								<strong>PHP:</strong>
-								Linguagem de programação usada principalmente para desenvolvimento web. É frequentemente
-								usada para criar páginas web dinâmicas e interativas.
-							</li>
-							<li>
-								<strong>JavaScript:</strong>
-								Linguagem de programação de alto nível usada principalmente para criar interatividade em
-								páginas da web.
-							</li>
-							<li>
-								<strong>Laravel:</strong>
-								Um framework de desenvolvimento web em PHP, utilizado para criar aplicativos web
-								robustos, seguindo o padrão MVC (Model-View-Controller).
-							</li>
-							<li>
-								<strong>Bootstrap:</strong>
-								Uma biblioteca de código aberto que fornece ferramentas e estilos para o desenvolvimento
-								rápido e responsivo de sites e aplicativos web.
-							</li>
-						</ul>
+				<ul>
+					<li>
+						<strong>HTML (HyperText Markup Language):</strong>
+						Linguagem de marcação usada para criar a estrutura e o conteúdo de páginas da web.
+					</li>
+					<li>
+						<strong>CSS (Cascading Style Sheets):</strong>
+						Linguagem usada para estilizar a apresentação de documentos HTML, dando estilo e formato
+						às páginas da web.
+					</li>
+					<li>
+						<strong>PHP:</strong>
+						Linguagem de programação usada principalmente para desenvolvimento web. É frequentemente
+						usada para criar páginas web dinâmicas e interativas.
+					</li>
+					<li>
+						<strong>JavaScript:</strong>
+						Linguagem de programação de alto nível usada principalmente para criar interatividade em
+						páginas da web.
+					</li>
+					<li>
+						<strong>Laravel:</strong>
+						Um framework de desenvolvimento web em PHP, utilizado para criar aplicativos web
+						robustos, seguindo o padrão MVC (Model-View-Controller).
+					</li>
+					<li>
+						<strong>Bootstrap:</strong>
+						Uma biblioteca de código aberto que fornece ferramentas e estilos para o desenvolvimento
+						rápido e responsivo de sites e aplicativos web.
+					</li>
+				</ul>
 
-						<h3>Junte-se a nós nessa jornada rumo a uma mobilidade urbana mais eficiente e conectada!</h3>
+				<h3>Junte-se a nós nessa jornada rumo a uma mobilidade urbana mais eficiente e conectada!</h3>
 
-					</div>
-				</article>
-			</section>
+			</div>
+		</article>
+	</section>
 
-			<!-- JS para a sidebar -->
-			<script src="../../JS/script.js"></script>
-		</body>
+	<!-- JS para a sidebar -->
+	<script src="../../JS/script.js"></script>
+</body>
 
-		</html>
+</html>

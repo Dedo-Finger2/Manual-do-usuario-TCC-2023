@@ -3,130 +3,110 @@
 
 <head>
 	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Introdução</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta http-equiv="x=ua-compatible" content="ie=edge">
+	<!-- CDN Bootstrap -->
+	<link rel="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/css/bootstrap.min.css">
+	<!-- Ícones -->
+	<link rel="stylesheet" type="text/css" href=" https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css ">
+	<!-- Custom CSS -->
+	<link rel="stylesheet" type="text/css" href="../../CSS/style.css">
+	<!-- JS Bootstrap -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/js/bootstrap.bundle.min.js" defer></script>
+
+	<title>Manual do usuário: Feedbacks</title>
+	<link rel="shortcut icon" href="../../img/logo_tcc_icon.png">
 </head>
 
 <body>
-	<!DOCTYPE html>
-	<html lang="pt-br">
+	<aside class="container-fluid">
+		<!-- Inicio Sidebar -->
+		<div class="sidebar close overflow-auto visible">
+			<!-- Inicio Barra superior -->
+			<div class="logo-details">
+				<i class="bx bx-menu"></i>
+				<span class="logo_name">Menu</span>
+			</div>
+			<!-- Fim Barra superior -->
 
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Manual Do usuario: Acesso empresarial</title>
-	</head>
+			<!-- Inicio corpo Sidebar -->
+			<ul class="nav-links">
+				<!-- Item único -->
 
-	<body>
+				<li>
+					<a href="../Empresa/introducaoEmpresa.html">
+						<i class='bx bxs-buildings'></i>
+						<span class="link_name">Empresa</span>
+					</a>
+				</li>
 
-		<!DOCTYPE html>
-		<html lang="pt-br">
+				<li>
+					<a href="Introdução.html">
+						<i class='bx bxs-user'></i>
+						<span class="link_name">Usuário</span>
+					</a>
+				</li>
 
-		<head>
-			<meta charset="UTF-8">
-			<meta name="viewport" content="width=device-width,initial-scale=1.0">
-			<meta http-equiv="x=ua-compatible" content="ie=edge">
-			<!-- CDN Bootstrap -->
-			<link rel="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/css/bootstrap.min.css">
-			<!-- Ícones -->
-			<link rel="stylesheet" type="text/css" href=" https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css ">
-			<!-- Custom CSS -->
-			<link rel="stylesheet" type="text/css" href="../../CSS/style.css">
-			<!-- JS Bootstrap -->
-			<script src="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/js/bootstrap.bundle.min.js" defer></script>
 
-			<title>Layout Manual</title>
-		</head>
-
-		<body>
-
-			<aside class="container-fluid">
-				<!-- Inicio Sidebar -->
-				<div class="sidebar close overflow-auto visible">
-					<!-- Inicio Barra superior -->
-					<div class="logo-details">
-						<i class="bx bx-menu"></i>
-						<span class="logo_name">Menu</span>
+				<!-- Dropdown -->
+				<li>
+					<div class="iocn-link">
+						<a href="#">
+							<i class='bx bxs-help-circle'></i>
+							<span class="link_name">Dúvidas</span>
+						</a>
+						<i class='bx bxs-chevron-down arrow'></i>
 					</div>
-					<!-- Fim Barra superior -->
-
-					<!-- Inicio corpo Sidebar -->
-					<ul class="nav-links">
-						<!-- Item único -->
-
-						<li>
-							<a href="../Empresa/introducaoEmpresa.html">
-								<i class='bx bx-grid-alt'></i>
-								<span class="link_name">Empresa</span>
-							</a>
-						</li>
+					<ul class="sub-menu">
+						<li><a href="login.html">Como acessar <br>o sistema?</a></li>
+						<li><a href="buscar.html">Como busco <br> uma rota?</a></li>
+						<li><a href="verIntinerarios.html">Como vejo <br> os intinerarios?</a></li>
+						<li><a href="feedback.html">Como fazer <br> feedbacks?</a></li>
 
 						<li>
-							<a href="Introdução.html">
-								<i class='bx bx-grid-alt'></i>
-								<span class="link_name">Usuario</span>
-							</a>
+							<hr>
 						</li>
-
-
-						<!-- Dropdown -->
-						<li>
-							<div class="iocn-link">
-								<a href="#">
-									<i class='bx bx-collection'></i>
-									<span class="link_name">Dúvidas</span>
-								</a>
-								<i class='bx bxs-chevron-down arrow'></i>
-							</div>
-							<ul class="sub-menu">
-								<li><a href="login.html">Como acessar <br>o sistema?</a></li>
-								<li><a href="buscar.html">Como busco <br> uma rota?</a></li>
-								<li><a href="verIntinerarios.html">Como vejo <br> os intinerarios?</a></li>
-								<li>
-									<hr>
-								</li>
-								<a href="">Ajuda</a>
-								<li><a href="ajuda1.html">Não consigo <br> achar uma rota</a></li>
-							</ul>
-						</li>
+						<a href="">Ajuda</a>
+						<li><a href="ajuda1.html">Não consigo <br> achar uma rota</a></li>
 					</ul>
+				</li>
+			</ul>
+		</div>
+		<!-- Fim Sidebar -->
+	</aside>
+
+	<!-- Conteúdo da página -->
+	<section class="container-fluid main-content">
+		<article>
+			<div>
+				<h1 class="text-center titulo-color ">Realizando um feedback</h1>
+				<h3 class="text-center titulo-color">Você pode fazer feedbacks apenas após fazer uma busca por
+					transporte público
+				</h3>
+				<p class="text-center ms-5">
+					Para fazer um feedback, primeiro faça uma busca, e clique no link do modal, após fazer seu
+					comentario na tela de feedback,<br>
+					clique no box abaixo caso tenha gostado do serviço, como apresentado abaixo, esse feedback é
+					importante para sabermos se esta satisfeito com os serviço do vai card ou não.<br>
+					Esses feedbacks são mandados diretamente para a stt e prefeitura.
+					<br>
+
+				<div class="container">
+					<video width="1280" height="720" controls poster="../../img/poster-video.png">
+						<source src="../../video/feedback-tela-tcc-sistema.mp4" type="video/mp4">
+						Seu navegador não suporta o vídeo!
+					</video>
 				</div>
-				<!-- Fim Sidebar -->
-			</aside>
+				</p>
 
-			<!-- Conteúdo da página -->
-			<section class="container-fluid main-content">
-				<article>
-					<div>
-						<h1 class="text-center titulo-color ">Realizando um feedback</h1>
-						<h3 class="text-center titulo-color">Você pode fazer feedbacks apenas após fazer uma busca por
-							transporte público
-						</h3>
-						<p class="text-center ms-5">
-							Para fazer um feedback, primeiro faça uma busca, e clique no link do modal, após fazer seu
-							comentario na tela de feedback,<br>
-							clique no box abaixo caso tenha gostado do serviço, como apresentado abaixo, esse feedback é
-							importante para sabermos se esta satisfeito com os serviço do vai card ou não.<br>
-							Esses feedbacks são mandados diretamente para a stt e prefeitura.
-							<br>
+				<h3>Junte-se a nós nessa jornada rumo a uma mobilidade urbana mais eficiente e conectada!</h3>
 
-						<div class="container">
-							<video width="1280" height="720" controls poster="../../img/poster-video.png">
-								<source src="../../video/feedback-tela-tcc-sistema.mp4" type="video/mp4">
-								Seu navegador não suporta o vídeo!
-							</video>
-						</div>
-						</p>
+			</div>
+		</article>
+	</section>
 
-						<h3>Junte-se a nós nessa jornada rumo a uma mobilidade urbana mais eficiente e conectada!</h3>
+	<!-- JS para a sidebar -->
+	<script src="../../JS/script.js"></script>
+</body>
 
-					</div>
-				</article>
-			</section>
-
-			<!-- JS para a sidebar -->
-			<script src="../../JS/script.js"></script>
-		</body>
-
-		</html>
+</html>
